@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-    --main-accent-color: #20639b;
-    --section-title-color-dark: #37474f;
-    --section-title-color-dark-2: #173f5f;
+    --main-accent-color: #e66e06;
+    --section-title-color-dark: #585858;
+    --section-title-color-dark-2: #e66e06;
     --body-color: #495057
 }
 
@@ -35,16 +35,16 @@ h1{
     padding-top: 2rem;
     text-transform: capitalize;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
-.section-title::after{
+/* .section-title::after{
     content: '';
     position: absolute;
     border-bottom: 3px solid var(--section-title-color-dark-2);
     width:  8%;
-    top: 80px;
-}
+    top: 64px;
+} */
 
 .section-title:hover::after{
     width: 12%;
@@ -54,7 +54,7 @@ h1{
 
 .navbar {
     padding-top: 0.5rem;
-    background-image:  linear-gradient(to right, #083355, #116593 );
+    background-image:  linear-gradient(to right, #e66e06, #e66e06 );
     /* background-color: #083355; */
 }
 
@@ -130,6 +130,150 @@ h1{
     margin-bottom: 4rem;
 }
 
+/* ========== TIMELINES ========== */
+
+#content {
+    padding: 2rem;
+}
+
+.timeline {
+    border-left: 3px solid #e66e06;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1 rem;
+    font-size: 1 rem;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 40%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    /* border-bottom: 1px dashed #e8ebf1; */
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    top: -28px;
+    content: attr(data-date);
+    text-align: left;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 2px #e66e06;
+    box-shadow: 0 0 0 2px #e66e06;
+    left: -56px;
+    background: #e66e06;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: -10px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
+
+/* ========== PRIZES ========== */
+
+.prize-cards{
+    padding-top: 2rem;
+}
+
+.prize-card{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 20rem;
+    background-color:white;
+    color: gray;
+    font-weight: bold;
+}
+
+.prize-card h5{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: gray;
+    font-weight: bold;
+}
+
+.prize-card p{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: gray;
+}
+
+#prizes{
+    padding-bottom: 3rem;
+    background-color: #eeeeee88;
+}
+
 /* ==========FOOTER============ */
 
 footer{
@@ -149,3 +293,4 @@ footer img{
     font-weight: lighter;
     color: white;
 }
+

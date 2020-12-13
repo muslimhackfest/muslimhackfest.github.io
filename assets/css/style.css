@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 :root {
     --main-accent-color: #e66e06;
@@ -34,8 +35,8 @@ h1{
     color: var(--section-title-color-dark);
     padding-top: 2rem;
     text-transform: capitalize;
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
 /* .section-title::after{
@@ -50,44 +51,50 @@ h1{
     width: 12%;
     transition: all 0.6s ease-out;
 }
+
+.container{
+    padding-left: 4rem;
+}
 /* ========== NAVIGATION ========== */
 
 .navbar {
     padding-top: 0.5rem;
-    background-image:  linear-gradient(to right, #e66e06, #e66e06 );
+    background-image:  linear-gradient(to right, white, white );
     /* background-color: #083355; */
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #c0dae7;
+    color: #782139;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: .85rem;
+    font-size: 1rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #ffffff;
+    color: #782139;
 }
 
 .navbar-brand{
-    color: #ffffff;
+    color: #782139;
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
 }
 
 .navbar-brand img{
-    color: #ffffff;
-    height: 25px;
+    color: #782139;
+    height: 40px;
 }
 
 /* ========== HERO ========== */
 
 #hero{
-    background-image: url('../img/background1.png');
+    /* background-image: url('../img/background1.png'); */
+    background-color: #782139;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     position: relative;
 }
 
@@ -126,18 +133,77 @@ h1{
 
 .muslim-hackfest-paragraph{
     color: white;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
-/* ========== TIMELINES ========== */
+.muslim-hackfest-date{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* ========== ABOUT ========== */
+#about{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+.about-image img{
+    margin-top: 3rem;
+    height: 100px;
+}
+
+.about-btn{
+    background-color: #782139;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* ========== WEBINAR ========== */
+#webinar{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.webinar{
+    list-style: none;
+}
+
+/* ========== HACKATHON ========== */
+
+#hackathon {
+    background-color: #782139;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#hackathon h2{
+    color: white;
+}
+
+.hackathon-paragraph{
+    margin-top: 4rem;
+}
+
+.hackathon-btn{
+    background-color: #ffffff;
+    color: #782139;
+    font-weight: bold;
+    font-size: 1rem;
+}
 
 #content {
     padding: 2rem;
 }
 
 .timeline {
-    border-left: 3px solid #782139;
+    border-left: 3px solid white;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
     margin: 0 auto;
@@ -145,10 +211,13 @@ h1{
     position: relative;
     line-height: 1 rem;
     font-size: 1 rem;
-    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 10px;
     list-style: none;
     text-align: left;
-    max-width: 40%;
+    max-width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -172,8 +241,9 @@ h1{
 
 .timeline .event {
     /* border-bottom: 1px dashed #e8ebf1; */
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+    /* padding-top: 0px !important; */
+    padding-bottom: 10px;
+    /* margin-bottom: 20px; */
     position: relative;
 }
 
@@ -194,6 +264,10 @@ h1{
     position: absolute;
     display: block;
     top: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .timeline .event:before {
@@ -213,15 +287,15 @@ h1{
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 2px #782139;
-    box-shadow: 0 0 0 2px #782139;
+    -webkit-box-shadow: 0 0 0 2px white;
+    box-shadow: 0 0 0 2px white;
     left: -56px;
-    background: #782139;
+    background:white;
     border-radius: 50%;
     height: 9px;
     width: 9px;
     content: "";
-    top: -10px;
+    top: 5 px;
 }
 
 @media (max-width: 767px) {
@@ -240,44 +314,87 @@ h1{
     right: -55.8px;
 }
 
-/* ========== PRIZES ========== */
+/* ========== FAQ ========== */
 
-.prize-cards{
-    padding-top: 2rem;
-}
-
-.prize-card{
-    margin-top: 2rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    width: 20rem;
-    background-color:white;
-    color: gray;
-    font-weight: bold;
-}
-
-.prize-card h5{
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    color: gray;
-    font-weight: bold;
-}
-
-.prize-card p{
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    color: gray;
-}
-
-#prizes{
+#faq{
+    padding-top: 2.5rem;
     padding-bottom: 3rem;
-    background-color: #eeeeee88;
+}
+
+.faqHeader {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #782139;
+    font-weight: bold;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'fontawesome';
+    content: "\f054"; /* "play" icon */
+    float: right;
+    color: #782139;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.accordion-toggle:hover{
+    color:#454444;
+    text-decoration: none;
+}
+
+.accordion-toggle{
+    color:#454444;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.panel-default{
+    margin-bottom: 10px;
+}
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
+
+/* ==========SPONSOR============ */
+#sponsor{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.sponsor-image img{
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* ==========PARTNER============ */
+#partner{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.partner-image img{
+    height: 80px;
+    margin: 20px;
 }
 
 /* ==========FOOTER============ */
 
 footer{
-    background-color: var(--section-title-color-dark-2);
+    background-color: #782139;
     background-size: auto;
     background-repeat: no-repeat;
     position: relative;

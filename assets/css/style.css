@@ -383,9 +383,10 @@ h1{
 .panel-heading [data-toggle="collapse"]:after {
     font-family: 'fontawesome';
     content: "\f054"; /* "play" icon */
+    margin-right: 1.5rem;
     float: right;
     color: #782139;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 22px;
     /* rotate "play" icon from > (right arrow) to down arrow */
     -webkit-transform: rotate(-90deg);

@@ -157,7 +157,8 @@ h1{
     color: #ffffff;
 }
 .about-image img{
-    margin-top: 3rem;
+    margin-top: 10rem;
+    /* margin: auto; */
     height: 100px;
 }
 

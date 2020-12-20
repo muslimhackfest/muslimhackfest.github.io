@@ -447,6 +447,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+.panel-body {
+    margin-left: 2rem;
+}
+
 .panel-heading [data-toggle="collapse"].collapsed:after {
     /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
     -webkit-transform: rotate(90deg);

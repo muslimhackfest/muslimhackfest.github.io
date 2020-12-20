@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-
 :root {
     --main-accent-color: #e66e06;
     --section-title-color-dark: #585858;
     --section-title-color-dark-2: #e66e06;
-    --body-color: #495057
+    --body-color: #495057;
+    --red-primary: #782139;
 }
 
 * {
@@ -13,24 +13,26 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 
-h1{
+h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 900;
 }
 
+
 /* Section title */
 
-.section-title{
+.section-title {
     position: relative;
 }
 
-.section-title-heading{
+.section-title-heading {
     font-family: 'Open Sans', sans-serif;
     color: var(--section-title-color-dark);
     padding-top: 2rem;
@@ -38,6 +40,7 @@ h1{
     font-weight: bolder;
     font-size: 2rem;
 }
+
 
 /* .section-title::after{
     content: '';
@@ -47,47 +50,52 @@ h1{
     top: 64px;
 } */
 
-.section-title:hover::after{
+.section-title:hover::after {
     width: 12%;
     transition: all 0.6s ease-out;
 }
 
-.container{
+.container {
     padding-left: 4rem;
 }
+
+
 /* ========== NAVIGATION ========== */
 
 .navbar {
     padding-top: 0.5rem;
-    background-image:  linear-gradient(to right, white, white );
+    background-image: linear-gradient(to right, white, white);
     /* background-color: #083355; */
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #782139;
+    color: var(--red-primary);
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #782139;
+    background-color: var(--red-primary);
+    color: #fff;
+    border-radius: .25rem;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #782139;
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     color: #782139;
     height: 40px;
 }
 
+
 /* ========== HERO ========== */
 
-#home{
+#home {
     /* background-image: url('../img/background1.png'); */
     background-color: #782139;
     background-size: cover;
@@ -98,40 +106,40 @@ h1{
     position: relative;
 }
 
-.main-hero-content h1{
+.main-hero-content h1 {
     color: #ffffff;
     letter-spacing: .11rem;
     margin-top: 2.2rem;
 }
 
-.main-hero-content span{
+.main-hero-content span {
     color: #ffffff;
     font-size: 1rem;
     margin-top: 2.2rem;
     font-weight: 600;
 }
 
-.coming-soon{
+.coming-soon {
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
-.coming-soon img{
+.coming-soon img {
     color: #ffffff;
     width: 400px;
 }
 
-.muslim-hackfest-title{
+.muslim-hackfest-title {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     margin-top: 2rem;
     padding-top: 3rem;
     text-transform: capitalize;
     font-weight: 700;
-    font-size:3rem;
+    font-size: 3rem;
 }
 
-.muslim-hackfest-paragraph{
+.muslim-hackfest-paragraph {
     color: white;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -139,7 +147,7 @@ h1{
     font-weight: bold;
 }
 
-.muslim-hackfest-date{
+.muslim-hackfest-date {
     color: white;
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -148,37 +156,42 @@ h1{
 
 
 /* ========== ABOUT ========== */
-#about{
+
+#about {
     padding-top: 2.5rem;
     padding-bottom: 3rem;
 }
 
-#about a:hover{
+#about a:hover {
     color: #ffffff;
 }
-.about-image img{
+
+.about-image img {
     margin-top: 10rem;
     /* margin: auto; */
     height: 100px;
 }
 
-.about-btn{
-    background-color: #782139;
+.about-btn {
+    background-color: var(--red-primary);
     color: #ffffff;
     font-weight: bold;
     font-size: 1rem;
 }
 
+
 /* ========== WEBINAR ========== */
-#webinar{
+
+#webinar {
     padding-top: 2.5rem;
     padding-bottom: 3rem;
 }
 
-.webinar{
+.webinar {
     list-style: none;
 }
-.event-webinar{
+
+.event-webinar {
     position: relative;
 }
 
@@ -187,8 +200,8 @@ h1{
     padding-right: 10px;
 }
 
-.event-webinar:after{
-    content:"";
+.event-webinar:after {
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -197,6 +210,7 @@ h1{
     border-top: 1px solid black;
     z-index: -1;
 }
+
 
 /* ========== HACKATHON ========== */
 
@@ -219,32 +233,32 @@ h1{
     border: 2px solid #ffffff;
 }
 
-.cd-text{
+.cd-text {
     font-size: 14px;
     font-weight: bold;
 }
 
-#hackathon h2{
+#hackathon h2 {
     color: white;
 }
 
-#hackathon h4{
+#hackathon h4 {
     color: white;
     font-size: 20px;
 }
 
-.hackathon-paragraph{
+.hackathon-paragraph {
     margin-top: 4rem;
 }
 
-.hackathon-btn{
+.hackathon-btn {
     background-color: #ffffff;
     color: #782139;
     font-weight: bold;
     font-size: 1rem;
 }
 
-.hackathon-btn:hover{
+.hackathon-btn:hover {
     color: #782139;
 }
 
@@ -340,7 +354,7 @@ h1{
     -webkit-box-shadow: 0 0 0 2px white;
     box-shadow: 0 0 0 2px white;
     left: -56px;
-    background:white;
+    background: white;
     border-radius: 50%;
     height: 9px;
     width: 9px;
@@ -364,15 +378,17 @@ h1{
     right: -55.8px;
 }
 
-.mentor img{
+.mentor img {
     border-radius: 50px;
     border: 4px solid #ffffff;
     height: 80px;
     margin: 40px;
 }
+
+
 /* ========== FAQ ========== */
 
-#faq{
+#faq {
     padding-top: 2.5rem;
     padding-bottom: 3rem;
 }
@@ -387,7 +403,8 @@ h1{
 
 .panel-heading [data-toggle="collapse"]:after {
     font-family: 'fontawesome';
-    content: "\f054"; /* "play" icon */
+    content: "\f054";
+    /* "play" icon */
     margin-right: 1.5rem;
     float: right;
     color: #782139;
@@ -401,20 +418,21 @@ h1{
     transform: rotate(-90deg);
 }
 
-.accordion-toggle:hover{
-    color:#454444;
+.accordion-toggle:hover {
+    color: #454444;
     text-decoration: none;
 }
 
-.accordion-toggle{
-    color:#454444;
+.accordion-toggle {
+    color: #454444;
     font-size: 12px;
     font-weight: bold;
 }
 
-.panel-default{
+.panel-default {
     margin-bottom: 10px;
 }
+
 .panel-heading [data-toggle="collapse"].collapsed:after {
     /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
     -webkit-transform: rotate(90deg);
@@ -425,46 +443,50 @@ h1{
     color: #454444;
 }
 
+
 /* ==========SPONSOR============ */
-#sponsor{
+
+#sponsor {
     padding-top: 2.5rem;
     padding-bottom: 3rem;
 }
 
-.sponsor-image img{
+.sponsor-image img {
     height: 80px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
+
 /* ==========PARTNER============ */
-#partner{
+
+#partner {
     padding-top: 2.5rem;
     padding-bottom: 3rem;
 }
 
-.partner-image img{
+.partner-image img {
     height: 80px;
     margin: 20px;
 }
 
+
 /* ==========FOOTER============ */
 
-footer{
+footer {
     background-color: #782139;
     background-size: auto;
     background-repeat: no-repeat;
     position: relative;
 }
 
-footer img{
+footer img {
     height: 20px;
 }
 
-.footer-text p{
+.footer-text p {
     padding-top: 1.2rem;
     font-size: 11px;
     font-weight: lighter;
     color: white;
 }
-

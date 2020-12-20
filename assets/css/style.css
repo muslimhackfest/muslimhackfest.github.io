@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;500;700;900&display=swap");
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 :root {
     --main-accent-color: #e66e06;
     --section-title-color-dark: #585858;
     --section-title-color-dark-2: #e66e06;
     --body-color: #495057;
     --red-primary: #782139;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 * {
@@ -75,7 +79,8 @@ h1 {
     font-size: 1rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav a.nav-link.active {
     background-color: var(--red-primary);
     color: #fff;
     border-radius: .25rem;

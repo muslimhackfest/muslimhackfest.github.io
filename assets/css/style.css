@@ -475,6 +475,12 @@ h1 {
     margin-right: 10px;
 }
 
+.sponsor-image .sponsor-platinum img {
+    height: 120px;
+    max-width: 100%;
+    margin: 1rem auto;
+}
+
 
 /* ==========PARTNER============ */
 

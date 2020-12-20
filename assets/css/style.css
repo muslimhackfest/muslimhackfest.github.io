@@ -244,6 +244,10 @@ h1{
     font-size: 1rem;
 }
 
+.hackathon-btn:hover{
+    color: #782139;
+}
+
 #content {
     padding: 2rem;
 }

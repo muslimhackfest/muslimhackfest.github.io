@@ -68,7 +68,7 @@ h1 {
 }
 
 .container {
-    padding-left: 4rem;
+    padding: 0 1rem;
 }
 
 
@@ -301,6 +301,9 @@ h1 {
     .timeline {
         max-width: 98%;
         padding: 25px;
+    }
+    .hidden-sm {
+        display: none;
     }
 }
 

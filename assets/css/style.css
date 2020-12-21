@@ -87,7 +87,10 @@ h1 {
     font-size: 1rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+    opacity: 0.95;
+}
+
 .navbar-light .navbar-nav a.nav-link.active {
     background-color: var(--red-primary);
     color: #fff;
@@ -272,7 +275,15 @@ h1 {
 }
 
 .hackathon-btn:hover {
-    opacity: 0.7;
+    color: #782139;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    color: none
 }
 
 #content {
@@ -481,17 +492,22 @@ h1 {
     padding-bottom: 3rem;
 }
 
+.sponsor-platinum {
+    margin: 1.5rem auto;
+    text-align: center;
+    display: block;
+}
+
 .sponsor-image img {
     height: 80px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.sponsor-image .sponsor-platinum img {
+.sponsor-platinum img {
     height: 120px;
     width: auto;
     max-width: 100%;
-    margin: 1rem auto;
 }
 
 

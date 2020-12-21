@@ -458,6 +458,7 @@ h1 {
 .accordion-toggle:hover {
     color: #454444;
     text-decoration: none;
+    opacity: 0.9;
 }
 
 .accordion-toggle {

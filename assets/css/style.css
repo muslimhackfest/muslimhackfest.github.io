@@ -228,6 +228,33 @@ h1 {
 }
 
 
+/*Mailchimp form*/
+
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 50%;
+    padding: 8px 0;
+    text-indent: 2%;
+}
+
+#mc_embed_signup .mc-field-group .input-group input {
+    margin-right: 2rem;
+}
+
+.mc-field-group label {
+    font-weight: bold;
+}
+
+.input-group li label {
+    font-weight: normal;
+    margin-left: 1rem;
+}
+
+#mc-embedded-subscribe {
+    margin-left: 0;
+}
+
+
 /* ========== HACKATHON ========== */
 
 #hackathon {
@@ -324,6 +351,9 @@ h1 {
     .sponsor-platinum {
         margin-left: 1.2rem;
         margin-right: 1.2rem;
+    }
+    #mc_embed_signup .mc-field-group input {
+        width: 100%;
     }
 }
 

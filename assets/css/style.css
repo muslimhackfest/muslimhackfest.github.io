@@ -178,10 +178,6 @@ h1 {
     padding-bottom: 3rem;
 }
 
-#about a:hover {
-    color: #ffffff;
-}
-
 .about-image img {
     margin-top: 10rem;
     /* margin: auto; */
@@ -193,6 +189,11 @@ h1 {
     color: #ffffff;
     font-weight: bold;
     font-size: 1rem;
+}
+
+#about a:hover,
+#content a:hover {
+    color: #ffffff;
 }
 
 
@@ -276,6 +277,10 @@ h1 {
     border: 2px solid #ffffff;
 }
 
+.border-red {
+    border: 2px solid var(--red-primary);
+}
+
 .cd-text {
     font-size: 14px;
     font-weight: bold;
@@ -333,6 +338,15 @@ h1 {
     list-style: none;
     text-align: left;
     max-width: 100%;
+}
+
+
+/**Poster Seminar**/
+
+.poster img {
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 @media (max-width: 767px) {

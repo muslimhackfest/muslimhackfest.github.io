@@ -125,6 +125,7 @@ function toHari(i){
 }
 
 window.onload = function () {
+  /*Render content based on data*/
   let endDate = new Date(yourDateToGo + (2*60*60*1000)); //shift 2 hours
   endDate = ISODateString(endDate);
   const startDate = ISODateString(yourDate);

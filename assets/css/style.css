@@ -323,7 +323,7 @@ h1 {
     color: #782139;
 }
 
-.btn:hover,
+.btn:hover:enabled,
 .btn:focus,
 .btn:active {
     -webkit-transform: scale(1.02);

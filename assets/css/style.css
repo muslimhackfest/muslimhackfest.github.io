@@ -228,6 +228,18 @@ h1 {
     z-index: -1;
 }
 
+.webinar-description {
+    font-size: 0.8rem;
+}
+
+.speaker img {
+    display: block;
+    border-radius: 50%;
+    border: 4px solid var(--red-primary);
+    margin: auto;
+    background-color: var(--red-primary);
+}
+
 
 /*Mailchimp form*/
 
@@ -319,9 +331,7 @@ h1 {
     color: none
 }
 
-#content {
-    padding: 2rem;
-}
+#content {}
 
 .timeline {
     border-left: 3px solid white;

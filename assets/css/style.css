@@ -258,7 +258,8 @@ h1 {
 
 /* ========== HACKATHON ========== */
 
-#hackathon {
+#hackathon,
+#registration {
     background-color: #782139;
     color: white;
     padding-top: 4rem;

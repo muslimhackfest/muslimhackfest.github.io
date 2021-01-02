@@ -174,10 +174,7 @@ h1 {
 
 /* ========== ABOUT ========== */
 
-#about {
-    padding-top: 2.5rem;
-    padding-bottom: 3rem;
-}
+#about {}
 
 .about-image img {
     margin-top: 10rem;

@@ -1,4 +1,4 @@
-var yourDateToGo = new Date("Dec 21, 2020 00:00:00").getTime(); //here you're making new Date object
+var yourDateToGo = new Date("2021-01-20T23:59:59+07:00").getTime(); //here you're making new Date object
 // yourDateToGo.setDate(yourDateToGo.getDate() + 7); //your're setting date in this object 1 day more from now
 //you can change number of days to go by putting any number in place of 1
 
@@ -16,15 +16,15 @@ var timing = setInterval( // you're making an interval - a thing, that is updati
     if (minutes < 10) minutes="0"+minutes;
     var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);//conversion miliseconds on seconds
     if (seconds < 10) seconds="0"+seconds;
-
-    document.getElementById("days").innerHTML = days;
-    document.getElementById("hours").innerHTML = hours;
-    document.getElementById("minutes").innerHTML = minutes; // putting number of days, hours, minutes and seconds in div, 
-    //which id is countdown
-
     if (timeLeft <= 0) {
         clearInterval(timing);
         document.getElementById("countdown").innerHTML = "It's over"; //if there's no time left, programm in this 2 lines is clearing interval (nothing is counting now) 
         //and you see "It's over" instead of time left
+    }else{
+        document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes; // putting number of days, hours, minutes and seconds in div, 
+    document.getElementById("seconds").innerHTML = seconds;
     }
+    //which id is countdown
     }, 1000);

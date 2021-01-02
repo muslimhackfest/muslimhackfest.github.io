@@ -43,6 +43,7 @@ h1 {
     text-transform: capitalize;
     font-weight: bolder;
     font-size: 2rem;
+    margin-bottom: 3rem;
 }
 
 .section-title-sub-heading {
@@ -329,6 +330,10 @@ h1 {
     -webkit-transform: scale(1.02);
     transform: scale(1.02);
     color: none
+}
+
+.hide {
+    display: none;
 }
 
 #content {}

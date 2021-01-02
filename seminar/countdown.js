@@ -3,14 +3,14 @@ const s01 = {
   url : 'https://openumma.org', //change this to zoom url later
   title : 'Pemuda Muslim Produktif dan Kontributif', 
   speaker : 'Ustadz Elvandi Lc, MA',
-  description : 'Ustadz Elvandi akan membahas mengenai bagaimana cara menjadi pemuda muslim dan kontributif'
+  description : 'Pada sesi ini Ustadz Elvandi akan membahas mengenai : \n 1. Visi Global Islam \n 2. Sistem Nilai Islam \n 3. Rencana Kontribusi Unggulan'
 }
 const s02 = {
   date : new Date("2021-01-23T10:00:00+07:00"), 
   url : 'https://www.google.com', //change this to zoom url
   title : 'Peranan Muslim di Era Disrupsi Teknologi',
   speaker : 'Dr.Ir. Syarif Hidayat, MT',
-  description : ''
+  description : 'Pada sesi ini Dr. Syarif Hidayat akan membahas mengenai : \n1. Perjuangan dalam mengembangkan Ventilator-I (Ventilator Portabel Indonesia) \n2. Peluang dan tantangan untuk pemuda Muslim di Indonesia khususnya dari bidang elektro dan informatika dalam mewujudkan Indonesia berdaulat teknologi untuk kemaslahatan umat manusia \n3. Urgensi berjejaring dan berkolaborasi'
 }
 
 const s03 = {
@@ -18,15 +18,15 @@ const s03 = {
   url : 'https://www.google.com', //change this to zoom url
   title : 'International Publication for Islamic IT Project',
   speaker : 'Prof. M Zaki Khedr',
-  description : ''
+  description : 'Prof Dr. Zaki Khedher will thoroughly cover topics on :\n 1. The role of collaboration on RnD for Islamic IT project\n 2. Brief about IMAN Conference (introduction, paper criteria, who can submit, how to submit, paper from Indonesia, etc)\n 3. Introduction to IJASAT Journal\n 4. Opportunity for computer science students or graduates in Indonesia to join the IMAN Conference and being an IJASAT contributor\n  *Webinar ini berlangsung dengan bahasa Inggris'
 }
 
 const s04 = {
   date : new Date("2021-01-23T16:00:00+07:00"), 
   url : 'https://www.google.com',
   title : 'Studi Kasus Kolaborasi: Kawal Covid-19 (Talkshow)',
-  speaker : '',
-  description : ''
+  speaker : 'Ainun Najib dan Zain Fathoni',
+  description : 'Talkshow bersama tim KawalCOVID19 bersama Ainun Najib (Inisiator) dan Zain Fathoni (Ketua Tim Teknologi). Kita akan membahas : \n1. Pengenalan gerakan Kawal Covid-19\n2.Proses membangun tim dan menjalankan gerakan\n3.Kolaborasi tim Kawal Covid-19 dalam menjalankan gerakan\n4.Suka duka dalam dalam menjalankan Kawal Covid-19\n5.Rencana kedepannya dan peluang peserta seminar untuk ikut andil\n6.Project keumatan lainnya yang pernah dikerjakan selain Kawal Covid\n7.Pesan untuk pemuda Muslim khususnya di sektor teknologi'
 }
 
 const od = {
@@ -43,23 +43,23 @@ const fileName = location.pathname.split("/").slice(-1)[0];
 switch(fileName) {
   case 's-01.html' :
     eventSingle = s01;
-    posterImage = 's01.png';
+    posterImage = 'poster.png';
     break;
   case 's-02.html' :
     eventSingle = s02;
-    posterImage = 's02.png';
+    posterImage = 'poster.png';
     break;
   case 's-03.html' :
     eventSingle = s03;
-    posterImage = 's03.png';
+    posterImage = 'poster.png';
     break;
   case 's-04.html' :
     eventSingle = s04;
-    posterImage = 's04.png';
+    posterImage = 'poster.png';
     break;
   case 'od.html' :
     eventSingle = od;
-    posterImage = 'od.png';
+    posterImage = 'poster.png';
     break;
   default : eventSingle = s01;
 }
@@ -143,6 +143,7 @@ window.onload = function () {
 
   $('.poster').append('<img src=../assets/img/poster/'+posterImage+' alt='+eventSingle.title+'>');
   $('.seminar-title').append(eventSingle.title);
-  $('.seminar-topic').append('<p>'+eventSingle.description+'</p>');
+  var eventTopic = eventSingle.description.replace(/\n/g,"<br>");
+  $('.seminar-topic').append('<p>'+eventTopic+'</p>');
   $('#addToCalendarBtn').attr('href',calendarUrl);
 }

@@ -174,7 +174,8 @@ h1 {
 
 /* ========== ABOUT ========== */
 
-#about {}
+
+/*#about {}*/
 
 .about-image img {
     margin-top: 10rem;
@@ -342,7 +343,8 @@ h1 {
     display: none;
 }
 
-#content {}
+
+/* #content {} */
 
 .timeline {
     border-left: 3px solid white;
@@ -414,9 +416,9 @@ h1 {
 }
 
 @media (max-width: 767px) {
-    .timeline .event {
-        /* padding-top: 30px; */
-    }
+    /* .timeline .event {
+         padding-top: 30px;
+    } */
 }
 
 .timeline .event:last-of-type {

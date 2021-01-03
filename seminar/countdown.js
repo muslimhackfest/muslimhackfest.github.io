@@ -8,7 +8,7 @@ const s01 = {
 const s02 = {
   date : new Date("2021-01-23T10:00:00+07:00"), 
   url : 'https://www.google.com', //change this to zoom url
-  title : 'Peranan Muslim di Era Disrupsi Teknologi',
+  title : 'Kolaborasi Mewujudkan Indonesia Berdaulat Teknologi',
   speaker : 'Dr.Ir. Syarif Hidayat, MT',
   description : 'Pada sesi ini Dr. Syarif Hidayat akan membahas mengenai : \n1. Perjuangan dalam mengembangkan Ventilator-I (Ventilator Portabel Indonesia) \n2. Peluang dan tantangan untuk pemuda Muslim di Indonesia khususnya dari bidang elektro dan informatika dalam mewujudkan Indonesia berdaulat teknologi untuk kemaslahatan umat manusia \n3. Urgensi berjejaring dan berkolaborasi'
 }
@@ -16,7 +16,7 @@ const s02 = {
 const s03 = {
   date : new Date("2021-01-23T13:00:00+07:00"), 
   url : 'https://www.google.com', //change this to zoom url
-  title : 'International Publication for Islamic IT Project',
+  title : 'Research and Development Collaboration on Islamic IT Projects',
   speaker : 'Prof. M Zaki Khedr',
   description : 'Prof Dr. Zaki Khedher will thoroughly cover topics on :\n 1. The role of collaboration on RnD for Islamic IT project\n 2. Brief about IMAN Conference (introduction, paper criteria, who can submit, how to submit, paper from Indonesia, etc)\n 3. Introduction to IJASAT Journal\n 4. Opportunity for computer science students or graduates in Indonesia to join the IMAN Conference and being an IJASAT contributor\n  *Webinar ini berlangsung dengan bahasa Inggris'
 }
@@ -24,7 +24,7 @@ const s03 = {
 const s04 = {
   date : new Date("2021-01-23T16:00:00+07:00"), 
   url : 'https://www.google.com',
-  title : 'Studi Kasus Kolaborasi: Kawal Covid-19 (Talkshow)',
+  title : 'Talkshow Kawal Covid19',
   speaker : 'Ainun Najib dan Zain Fathoni',
   description : 'Talkshow bersama tim KawalCOVID19 bersama Ainun Najib (Inisiator) dan Zain Fathoni (Ketua Tim Teknologi). Kita akan membahas : \n1. Pengenalan gerakan Kawal Covid-19\n2.Proses membangun tim dan menjalankan gerakan\n3.Kolaborasi tim Kawal Covid-19 dalam menjalankan gerakan\n4.Suka duka dalam dalam menjalankan Kawal Covid-19\n5.Rencana kedepannya dan peluang peserta seminar untuk ikut andil\n6.Project keumatan lainnya yang pernah dikerjakan selain Kawal Covid\n7.Pesan untuk pemuda Muslim khususnya di sektor teknologi'
 }
@@ -32,7 +32,7 @@ const s04 = {
 const od = {
   date : new Date("2021-01-10T09:00:00+07:00"), 
   url : 'https://www.google.com',
-  title : 'Studi Kasus Kolaborasi: Kawal Covid-19 (Talkshow)',
+  title : 'Open Source Online Discussion',
   speaker : '',
   description : ''
 }

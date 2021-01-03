@@ -29,6 +29,10 @@ h1 {
     font-weight: 900;
 }
 
+a {
+    color: inherit;
+}
+
 
 /* Section title */
 

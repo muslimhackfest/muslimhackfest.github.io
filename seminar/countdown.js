@@ -6,7 +6,7 @@ const s01 = {
   description : 'Pada sesi ini Ustadz Elvandi akan membahas mengenai : \n 1. Visi Global Islam \n 2. Sistem Nilai Islam \n 3. Rencana Kontribusi Unggulan'
 }
 const s02 = {
-  date : new Date("2021-01-23T10:00:00+07:00"), 
+  date : new Date("2021-01-24T09:00:00+07:00"), 
   url : 'https://www.google.com', //change this to zoom url
   title : 'Kolaborasi Mewujudkan Indonesia Berdaulat Teknologi',
   speaker : 'Dr.Ir. Syarif Hidayat, MT',
@@ -31,10 +31,10 @@ const s04 = {
 
 const od = {
   date : new Date("2021-01-10T09:00:00+07:00"), 
-  url : 'https://www.google.com',
+  url : 'https://zoom.us/j/97865260973?pwd=Wm10MytKMnlqVVhYaHBVS0tkVlhldz09',
   title : 'Open Source Online Discussion',
-  speaker : '',
-  description : ''
+  speaker : 'Anggi Renaldy, Dimas Yoga, Faiz Ghifari Haznitrama, Rahmi Yuwan, Galih Fajar',
+  description : 'Open Source Online Discussion merupakan sebuah acara diskusi dalam rangka menciptakan ekosistem kolaborasi yang positif diantara inventor Muslim dan umat Islam yang tertarik dengan teknologi.\n Dalam acara ini, akan dipaparkan proyek/penelitian berbasis keumatan dari masing-masing founder untuk kemudian dibuka peluang kontribusi dari inovator-inovator Muslim yang ingin berpartisipasi aktif terhadap proyek/penelitian tersebut. Kemudian akan dipaparkan juga mengenai ide-ide potensial yang bisa dikembangkan lebih lanjut. \nProjek yang dipaparkan antara lain:\n<ul> <li>Platform Katalog Desain Masjid Terverifikasi</li><li>Pencarian ayat Al Quran berdasar Dokumen Bahasa Indonesia</li><li>Asisten Belajar Quran berbasis AI Pengenal Ucapan</li><li>MosQu: Mosque Integrated Digital Platform</li></ul>'
 }
 var calendarCopy = 'Assalamualaykum wr wb. \n\n Topik \n{topic} \n\nVirtual seminar ini akan diadakan via Zoom pada \nHari/Tanggal: {day} , {date} \nJam: {time} - selesai \nGRATIS, kuota terbatas. \n\nLink zoom: \n{url}\n\nWassalamualaykum wr wb\nMuslim Hackfest by OpenUmma'
 
@@ -59,7 +59,7 @@ switch(fileName) {
     break;
   case 'od.html' :
     eventSingle = od;
-    posterImage = 'poster.png';
+    posterImage = 'osd.png';
     break;
   default : eventSingle = s01;
 }

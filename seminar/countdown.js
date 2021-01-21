@@ -1,5 +1,5 @@
 const s01 = {
-  date : new Date("2021-01-23T08:00:00+07:00"), 
+  date : new Date("2021-01-23T07:30:00+07:00"), 
   url : 'https://openumma.org', //change this to zoom url later
   title : 'Pemuda Muslim Produktif dan Kontributif', 
   speaker : 'Ustadz Elvandi Lc, MA',
@@ -14,7 +14,7 @@ const s02 = {
 }
 
 const s03 = {
-  date : new Date("2021-01-23T13:00:00+07:00"), 
+  date : new Date("2021-01-24T13:00:00+07:00"), 
   url : 'https://www.google.com', //change this to zoom url
   title : 'Research and Development Collaboration on Islamic IT Projects',
   speaker : 'Prof. M Zaki Khedr',
@@ -22,7 +22,7 @@ const s03 = {
 }
 
 const s04 = {
-  date : new Date("2021-01-23T16:00:00+07:00"), 
+  date : new Date("2021-01-31T13:00:00+07:00"), 
   url : 'https://www.google.com',
   title : 'Talkshow Kawal Covid19',
   speaker : 'Ainun Najib dan Zain Fathoni',

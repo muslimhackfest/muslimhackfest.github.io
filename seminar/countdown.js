@@ -43,19 +43,19 @@ const fileName = location.pathname.split("/").slice(-1)[0];
 switch(fileName) {
   case 's-01.html' :
     eventSingle = s01;
-    posterImage = 'poster.png';
+    posterImage = 'poster.jpg';
     break;
   case 's-02.html' :
     eventSingle = s02;
-    posterImage = 'poster.png';
+    posterImage = 'poster.jpg';
     break;
   case 's-03.html' :
     eventSingle = s03;
-    posterImage = 'poster.png';
+    posterImage = 'poster.jpg';
     break;
   case 's-04.html' :
     eventSingle = s04;
-    posterImage = 'poster.png';
+    posterImage = 'poster.jpg';
     break;
   case 'od.html' :
     eventSingle = od;

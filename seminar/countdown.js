@@ -1,6 +1,6 @@
 const s01 = {
   date : new Date("2021-01-23T07:30:00+07:00"), 
-  url : 'https://openumma.org', //change this to zoom url later
+  url : 'https://zoom.us/j/94026267565?pwd=OU1OSTY3WGtiU3hqYW1xUW5wYWd0QT09', //change this to zoom url later
   title : 'Pemuda Muslim Produktif dan Kontributif', 
   speaker : 'Ustadz Elvandi Lc, MA',
   description : 'Pada sesi ini Ustadz Elvandi akan membahas mengenai : \n 1. Visi Global Islam \n 2. Sistem Nilai Islam \n 3. Rencana Kontribusi Unggulan'

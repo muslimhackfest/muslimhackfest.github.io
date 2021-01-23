@@ -7,7 +7,7 @@ const s01 = {
 }
 const s02 = {
   date : new Date("2021-01-24T09:00:00+07:00"), 
-  url : 'https://www.google.com', //change this to zoom url
+  url : 'https://zoom.us/j/99831938703?pwd=UEdvWW1YL0UxTU1Sa0xvMnZtTVQxZz09', //change this to zoom url
   title : 'Kolaborasi Mewujudkan Indonesia Berdaulat Teknologi',
   speaker : 'Dr.Ir. Syarif Hidayat, MT',
   description : 'Pada sesi ini Dr. Syarif Hidayat akan membahas mengenai : \n1. Perjuangan dalam mengembangkan Ventilator-I (Ventilator Portabel Indonesia) \n2. Peluang dan tantangan untuk pemuda Muslim di Indonesia khususnya dari bidang elektro dan informatika dalam mewujudkan Indonesia berdaulat teknologi untuk kemaslahatan umat manusia \n3. Urgensi berjejaring dan berkolaborasi'
@@ -15,7 +15,7 @@ const s02 = {
 
 const s03 = {
   date : new Date("2021-01-24T13:00:00+07:00"), 
-  url : 'https://www.google.com', //change this to zoom url
+  url : 'https://zoom.us/j/94806780693?pwd=dUptWWg4cHpLSWp3dUxrWlJocCs3QT09', //change this to zoom url
   title : 'Research and Development Collaboration on Islamic IT Projects',
   speaker : 'Prof. M Zaki Khedr',
   description : 'Prof Dr. Zaki Khedher will thoroughly cover topics on :\n 1. The role of collaboration on RnD for Islamic IT project\n 2. Brief about IMAN Conference (introduction, paper criteria, who can submit, how to submit, paper from Indonesia, etc)\n 3. Introduction to IJASAT Journal\n 4. Opportunity for computer science students or graduates in Indonesia to join the IMAN Conference and being an IJASAT contributor\n  *Webinar ini berlangsung dengan bahasa Inggris'

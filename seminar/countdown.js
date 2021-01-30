@@ -23,7 +23,7 @@ const s03 = {
 
 const s04 = {
   date : new Date("2021-01-31T13:00:00+07:00"), 
-  url : 'https://www.google.com',
+  url : 'https://zoom.us/j/91770527493?pwd=UG1ZV3BKUUxhd0s0OUo2VXM4aitJdz09',
   title : 'Talkshow Kawal Covid19',
   speaker : 'Ainun Najib dan Zain Fathoni',
   description : 'Talkshow bersama tim KawalCOVID19 bersama Ainun Najib (Inisiator) dan Zain Fathoni (Ketua Tim Teknologi). Kita akan membahas : \n1. Pengenalan gerakan Kawal Covid-19\n2.Proses membangun tim dan menjalankan gerakan\n3.Kolaborasi tim Kawal Covid-19 dalam menjalankan gerakan\n4.Suka duka dalam dalam menjalankan Kawal Covid-19\n5.Rencana kedepannya dan peluang peserta seminar untuk ikut andil\n6.Project keumatan lainnya yang pernah dikerjakan selain Kawal Covid\n7.Pesan untuk pemuda Muslim khususnya di sektor teknologi'
